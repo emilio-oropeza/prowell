@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_yes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 61.75 0 61.75 52 0 52"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Prowell" transform="translate(-619.000000, -9124.000000)">
+            <g id="12" transform="translate(0.000000, 8800.000000)">
+                <g id="ic_yes" transform="translate(619.000000, 324.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="65" cy="65" r="65"></circle>
+                    <g id="Group-3" transform="translate(34.937500, 41.437500)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M30.875,52 C3.47731355,39.6760135 -5.9020746,18.3225715 3.60072655,6.12060463 C12.7332887,-5.71530322 30.875,1.23981789 30.875,13.1977454 C30.875,1.23981789 48.8932983,-5.71530322 58.1492734,6.12060463 C67.6520746,18.3225715 58.2726864,39.6760135 30.875,52" id="Fill-1" fill="#3CF990" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
