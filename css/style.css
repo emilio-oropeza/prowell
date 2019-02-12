@@ -1,3 +1,81 @@
-.white-bg{
-    background-color: #f8fbfd
+@keyframes latido {
+    to { transform: scale(1.1); }
+}
+
+:root {
+    --blanco: #f8fbfd;
+    --negro: #000000;
+    --azul: #2b37c0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+.boldText{
+    font-weight: 800;
+    font-size: 2em;
+    color: var(--negro);
+}
+
+.strokeText{
+    font-weight: 800;
+    font-size: 2em;
+    color: var(--negro);
+    -webkit-text-fill-color: var(--blanco);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--negro);
+}
+
+.sections {
+    min-height: 100vh;
+}
+
+#cover {
+    overflow: hidden;
+    display: flex;
+    border: 15px solid;
+    min-height: calc(100vh - 30px);
+}
+
+    .cover_container{
+        text-align: center;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cover_container > * {
+        margin: 0;
+        width: 100%;
+        flex: 1 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cover_container > img {
+        max-width: 340px;
+        width: auto;
+        flex: 5;
+    }
+
+    .cover_text_container > p {
+        margin-block-start: 5px;
+        margin-block-end: 5px;
+    }
+
+    .cover_text_container > a > img {
+        margin-top: 55px;
+    }
+
+#love{
+    background-color: var(--azul);
+}
+
+#love > img {
+    animation: latido .25s infinite alternate;
 }
