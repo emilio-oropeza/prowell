@@ -76,7 +76,7 @@ body {
 @media screen and (min-width: 640px) {
     .sections {
         min-height: 800px;
-        height: 100vh;
+        height: auto;
     }
 
     .boldText{
@@ -87,18 +87,14 @@ body {
         font-size: 2em;
     }
 
-    /* .grid-container{
-        grid-template-columns: repeat(auto-fit, 400px);
-        grid-gap: 70px;
-    } */
 }
 
-/* @media screen and (min-width: 800px) {
-    .title_grid {
-        font-size: 1.6em;
-    }
+.white_stroke{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--blanco);
+}
 
-    .grid-container{
-        grid-template-columns: repeat(auto-fit, 442px);
-    }
-} */
+.black_stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--negro);
+}

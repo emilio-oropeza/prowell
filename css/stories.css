@@ -1,0 +1,29 @@
+
+#stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blanco);
+}
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-gap: 40px 40px;
+        width: 100%;
+    }
+
+    .title_grid{
+        font-size: 25px;
+        line-height: 0px;
+    }
+
+    #stories .squares {
+        height: auto;
+        border: none;
+        -webkit-box-shadow: 10px 10px 1px -5px var(--blanco),10px 10px var(--negro);
+        -moz-box-shadow: 10px 10px 1px -5px var(--blanco),10px 10px var(--negro);
+        box-shadow: 10px 10px 1px -5px var(--blanco),10px 10px var(--negro);
+    }
+
+
+

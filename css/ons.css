@@ -1,0 +1,38 @@
+#ons{
+    background-image: url(../img/back2.png);
+    background-position: center;
+    background-size: cover;
+    background-color: var(--blanco);
+    border: 15px solid var(--azul);
+    min-height: calc(100vh - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+.love_our_lives_square {
+    background: var(--blanco);
+    box-shadow: 1px 1px 20px -4px #e0e0e1;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-size: 30px;
+}
+
+.love_our_lives_square p {
+    margin: 5px 0;
+}
+
+
+@media screen and (min-width: 640px) {
+    .love_our_lives_square {
+        width: 370px;
+        height: 370px;
+    }
+}
